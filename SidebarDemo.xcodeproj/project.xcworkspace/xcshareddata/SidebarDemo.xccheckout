@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>43D2FCC8-777D-4276-B21E-17C264E45373</string>
+	<key>IDESourceControlProjectName</key>
+	<string>SidebarDemo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>085D060F2E1C62543CBEADA4C3B82E141B5F4D11</key>
+		<string>https://github.com/appcoda/Slideout-Sidebar-Demo.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>SidebarDemo.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>085D060F2E1C62543CBEADA4C3B82E141B5F4D11</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/appcoda/Slideout-Sidebar-Demo.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>085D060F2E1C62543CBEADA4C3B82E141B5F4D11</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>085D060F2E1C62543CBEADA4C3B82E141B5F4D11</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Slideout-Sidebar-Demo</string>
+		</dict>
+	</array>
+</dict>
+</plist>

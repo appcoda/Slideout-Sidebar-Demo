@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F4090B941A0F67D000651F6F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F4090B931A0F67D000651F6F /* main.m */; };
+		F4090B971A0F67D000651F6F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F4090B961A0F67D000651F6F /* AppDelegate.m */; };
+		F4090B9A1A0F67D000651F6F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4090B991A0F67D000651F6F /* ViewController.m */; };
+		F4090B9D1A0F67D000651F6F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4090B9B1A0F67D000651F6F /* Main.storyboard */; };
+		F4090B9F1A0F67D000651F6F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4090B9E1A0F67D000651F6F /* Images.xcassets */; };
+		F4090BA21A0F67D000651F6F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4090BA01A0F67D000651F6F /* LaunchScreen.xib */; };
+		F4090BAE1A0F67D000651F6F /* SidebarDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F4090BAD1A0F67D000651F6F /* SidebarDemoTests.m */; };
+		F4090BBD1A0FD53800651F6F /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4090BBC1A0FD53800651F6F /* MapViewController.m */; };
+		F4090BC01A0FD5BC00651F6F /* PhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4090BBF1A0FD5BC00651F6F /* PhotoViewController.m */; };
+		F4090BC31A0FD62A00651F6F /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4090BC21A0FD62A00651F6F /* MainViewController.m */; };
+		F4090BC61A0FD6F800651F6F /* SidebarTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4090BC51A0FD6F800651F6F /* SidebarTableViewController.m */; };
+		F4090BCA1A0FD76C00651F6F /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4090BC91A0FD76C00651F6F /* SWRevealViewController.m */; };
+		F4090BCC1A10563200651F6F /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4090BCB1A10563200651F6F /* MapKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F4090BA81A0F67D000651F6F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4090B861A0F67D000651F6F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4090B8D1A0F67D000651F6F;
+			remoteInfo = SidebarDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F4090B8E1A0F67D000651F6F /* SidebarDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SidebarDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4090B921A0F67D000651F6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4090B931A0F67D000651F6F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F4090B951A0F67D000651F6F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F4090B961A0F67D000651F6F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F4090B981A0F67D000651F6F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F4090B991A0F67D000651F6F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F4090B9C1A0F67D000651F6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F4090B9E1A0F67D000651F6F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F4090BA11A0F67D000651F6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F4090BA71A0F67D000651F6F /* SidebarDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SidebarDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4090BAC1A0F67D000651F6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4090BAD1A0F67D000651F6F /* SidebarDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SidebarDemoTests.m; sourceTree = "<group>"; };
+		F4090BBB1A0FD53800651F6F /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		F4090BBC1A0FD53800651F6F /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		F4090BBE1A0FD5BC00651F6F /* PhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoViewController.h; sourceTree = "<group>"; };
+		F4090BBF1A0FD5BC00651F6F /* PhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoViewController.m; sourceTree = "<group>"; };
+		F4090BC11A0FD62A00651F6F /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		F4090BC21A0FD62A00651F6F /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		F4090BC41A0FD6F800651F6F /* SidebarTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SidebarTableViewController.h; sourceTree = "<group>"; };
+		F4090BC51A0FD6F800651F6F /* SidebarTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SidebarTableViewController.m; sourceTree = "<group>"; };
+		F4090BC81A0FD76C00651F6F /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		F4090BC91A0FD76C00651F6F /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		F4090BCB1A10563200651F6F /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4090B8B1A0F67D000651F6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4090BCC1A10563200651F6F /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4090BA41A0F67D000651F6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F4090B851A0F67D000651F6F = {
+			isa = PBXGroup;
+			children = (
+				F4090BCB1A10563200651F6F /* MapKit.framework */,
+				F4090B901A0F67D000651F6F /* SidebarDemo */,
+				F4090BAA1A0F67D000651F6F /* SidebarDemoTests */,
+				F4090B8F1A0F67D000651F6F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F4090B8F1A0F67D000651F6F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4090B8E1A0F67D000651F6F /* SidebarDemo.app */,
+				F4090BA71A0F67D000651F6F /* SidebarDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4090B901A0F67D000651F6F /* SidebarDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F4090BC71A0FD74700651F6F /* SWRevealViewController */,
+				F4090B951A0F67D000651F6F /* AppDelegate.h */,
+				F4090B961A0F67D000651F6F /* AppDelegate.m */,
+				F4090B981A0F67D000651F6F /* ViewController.h */,
+				F4090B991A0F67D000651F6F /* ViewController.m */,
+				F4090B9B1A0F67D000651F6F /* Main.storyboard */,
+				F4090B9E1A0F67D000651F6F /* Images.xcassets */,
+				F4090BA01A0F67D000651F6F /* LaunchScreen.xib */,
+				F4090B911A0F67D000651F6F /* Supporting Files */,
+				F4090BBB1A0FD53800651F6F /* MapViewController.h */,
+				F4090BBC1A0FD53800651F6F /* MapViewController.m */,
+				F4090BBE1A0FD5BC00651F6F /* PhotoViewController.h */,
+				F4090BBF1A0FD5BC00651F6F /* PhotoViewController.m */,
+				F4090BC11A0FD62A00651F6F /* MainViewController.h */,
+				F4090BC21A0FD62A00651F6F /* MainViewController.m */,
+				F4090BC41A0FD6F800651F6F /* SidebarTableViewController.h */,
+				F4090BC51A0FD6F800651F6F /* SidebarTableViewController.m */,
+			);
+			path = SidebarDemo;
+			sourceTree = "<group>";
+		};
+		F4090B911A0F67D000651F6F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F4090B921A0F67D000651F6F /* Info.plist */,
+				F4090B931A0F67D000651F6F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F4090BAA1A0F67D000651F6F /* SidebarDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				F4090BAD1A0F67D000651F6F /* SidebarDemoTests.m */,
+				F4090BAB1A0F67D000651F6F /* Supporting Files */,
+			);
+			path = SidebarDemoTests;
+			sourceTree = "<group>";
+		};
+		F4090BAB1A0F67D000651F6F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F4090BAC1A0F67D000651F6F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F4090BC71A0FD74700651F6F /* SWRevealViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F4090BC81A0FD76C00651F6F /* SWRevealViewController.h */,
+				F4090BC91A0FD76C00651F6F /* SWRevealViewController.m */,
+			);
+			name = SWRevealViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4090B8D1A0F67D000651F6F /* SidebarDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4090BB11A0F67D000651F6F /* Build configuration list for PBXNativeTarget "SidebarDemo" */;
+			buildPhases = (
+				F4090B8A1A0F67D000651F6F /* Sources */,
+				F4090B8B1A0F67D000651F6F /* Frameworks */,
+				F4090B8C1A0F67D000651F6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SidebarDemo;
+			productName = SidebarDemo;
+			productReference = F4090B8E1A0F67D000651F6F /* SidebarDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F4090BA61A0F67D000651F6F /* SidebarDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4090BB41A0F67D000651F6F /* Build configuration list for PBXNativeTarget "SidebarDemoTests" */;
+			buildPhases = (
+				F4090BA31A0F67D000651F6F /* Sources */,
+				F4090BA41A0F67D000651F6F /* Frameworks */,
+				F4090BA51A0F67D000651F6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4090BA91A0F67D000651F6F /* PBXTargetDependency */,
+			);
+			name = SidebarDemoTests;
+			productName = SidebarDemoTests;
+			productReference = F4090BA71A0F67D000651F6F /* SidebarDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4090B861A0F67D000651F6F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = AppCoda;
+				TargetAttributes = {
+					F4090B8D1A0F67D000651F6F = {
+						CreatedOnToolsVersion = 6.1;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					F4090BA61A0F67D000651F6F = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = F4090B8D1A0F67D000651F6F;
+					};
+				};
+			};
+			buildConfigurationList = F4090B891A0F67D000651F6F /* Build configuration list for PBXProject "SidebarDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F4090B851A0F67D000651F6F;
+			productRefGroup = F4090B8F1A0F67D000651F6F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4090B8D1A0F67D000651F6F /* SidebarDemo */,
+				F4090BA61A0F67D000651F6F /* SidebarDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4090B8C1A0F67D000651F6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4090B9D1A0F67D000651F6F /* Main.storyboard in Resources */,
+				F4090BA21A0F67D000651F6F /* LaunchScreen.xib in Resources */,
+				F4090B9F1A0F67D000651F6F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4090BA51A0F67D000651F6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4090B8A1A0F67D000651F6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4090B9A1A0F67D000651F6F /* ViewController.m in Sources */,
+				F4090BC31A0FD62A00651F6F /* MainViewController.m in Sources */,
+				F4090B971A0F67D000651F6F /* AppDelegate.m in Sources */,
+				F4090BCA1A0FD76C00651F6F /* SWRevealViewController.m in Sources */,
+				F4090B941A0F67D000651F6F /* main.m in Sources */,
+				F4090BBD1A0FD53800651F6F /* MapViewController.m in Sources */,
+				F4090BC01A0FD5BC00651F6F /* PhotoViewController.m in Sources */,
+				F4090BC61A0FD6F800651F6F /* SidebarTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4090BA31A0F67D000651F6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4090BAE1A0F67D000651F6F /* SidebarDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F4090BA91A0F67D000651F6F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4090B8D1A0F67D000651F6F /* SidebarDemo */;
+			targetProxy = F4090BA81A0F67D000651F6F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F4090B9B1A0F67D000651F6F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4090B9C1A0F67D000651F6F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F4090BA01A0F67D000651F6F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4090BA11A0F67D000651F6F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F4090BAF1A0F67D000651F6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F4090BB01A0F67D000651F6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F4090BB21A0F67D000651F6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SidebarDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F4090BB31A0F67D000651F6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SidebarDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F4090BB51A0F67D000651F6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SidebarDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SidebarDemo.app/SidebarDemo";
+			};
+			name = Debug;
+		};
+		F4090BB61A0F67D000651F6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SidebarDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SidebarDemo.app/SidebarDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4090B891A0F67D000651F6F /* Build configuration list for PBXProject "SidebarDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4090BAF1A0F67D000651F6F /* Debug */,
+				F4090BB01A0F67D000651F6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4090BB11A0F67D000651F6F /* Build configuration list for PBXNativeTarget "SidebarDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4090BB21A0F67D000651F6F /* Debug */,
+				F4090BB31A0F67D000651F6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4090BB41A0F67D000651F6F /* Build configuration list for PBXNativeTarget "SidebarDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4090BB51A0F67D000651F6F /* Debug */,
+				F4090BB61A0F67D000651F6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F4090B861A0F67D000651F6F /* Project object */;
+}
