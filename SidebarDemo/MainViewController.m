@@ -7,6 +7,7 @@
 //
 
 #import "MainViewController.h"
+#import "SWRevealViewController.h"
 
 @interface MainViewController ()
 
@@ -18,6 +19,14 @@
     [super viewDidLoad];
 
     self.title = @"News";
+
+    SWRevealViewController *revealViewController = self.revealViewController;
+    if ( revealViewController )
+    {
+        [self.sidebarButton setTarget: self.revealViewController];
+        [self.sidebarButton setAction: @selector( revealToggle: )];
+        [self.view addGestureRecognizer:self.revealViewController.panGestureRecognizer];
+    }
 }
 
 - (void)didReceiveMemoryWarning {

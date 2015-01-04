@@ -7,6 +7,7 @@
 //
 
 #import "PhotoViewController.h"
+#import "SWRevealViewController.h"
 
 @interface PhotoViewController ()
 
@@ -18,6 +19,15 @@
     [super viewDidLoad];
     
     self.photoImageView.image = [UIImage imageNamed:self.photoFilename];
+
+    SWRevealViewController *revealViewController = self.revealViewController;
+    if ( revealViewController )
+    {
+        [self.sidebarButton setTarget: self.revealViewController];
+        [self.sidebarButton setAction: @selector( revealToggle: )];
+        [self.view addGestureRecognizer:self.revealViewController.panGestureRecognizer];
+    }
+
 }
 
 - (void)didReceiveMemoryWarning {
